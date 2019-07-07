@@ -12,11 +12,16 @@ The dataset contains in total 884 images of 2 classes. They have been split into
 
 The dataset structure:
 
---Dataset
-  |--train
+
+|--Dataset
+
+    |--train
+  
       |--cavity (389 images)
       |--no_cavity (319 images)
-  |--test
+      
+    |--test
+  
       |--cavity (97 images)
       |--no_cavity (79 images)
   
