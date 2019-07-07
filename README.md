@@ -3,7 +3,8 @@
 This is a self-project on making a CNN on classifying whether a teeth has cavities or not using real time camera captured images instead of X-ray images.
 I created my own dataset by downloading images from Google under different Search Keywords. I used the Google Image Downloader extension in Firefox browser. 
 
-[Link](https://addons.mozilla.org/en-US/firefox/addon/google-images-downloader/) to the extension.
+[Link](https://addons.mozilla.org/en-US/firefox/addon/google-images-downloader/) to the extension (firefox).
+
 For [Chrome](https://chrome.google.com/webstore/detail/image-downloader/cnpniohnfphhjihaiiggeabnkjhpaldj).
 
 The dataset I created is provided in the repository.
