@@ -7,7 +7,18 @@ I created my own dataset by downloading images from Google under different Searc
 
 For [Chrome](https://chrome.google.com/webstore/detail/image-downloader/cnpniohnfphhjihaiiggeabnkjhpaldj).
 
-The dataset I created is provided in the repository.
-It contains in total 884 images of 2 classes. They have been split into train and test folders in 8:2 ratio.
+The dataset can be downloaded from [here](https://drive.google.com/file/d/1SWxNftwN6HDNNOP2ONiSd9kvlikm3jLS/view?usp=sharing).
+The dataset contains in total 884 images of 2 classes. They have been split into train and test folders in 8:2 ratio.
+
+The dataset structure:
+
+--Dataset
+  |--train
+      |--cavity (389 images)
+      |--no_cavity (319 images)
+  |--test
+      |--cavity (97 images)
+      |--no_cavity (79 images)
+  
 
 I used Tensorflow hub's Imagenet v3 to create the initial layers and added a dense layer after that to create the neural network.
