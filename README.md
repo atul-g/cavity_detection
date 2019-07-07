@@ -27,3 +27,10 @@ The dataset structure:
   
 
 I used Tensorflow hub's Imagenet v3 to create the initial layers and added a dense layer after that to create the neural network.
+It's important to make sure that you use the 2.0 version of Tensorflow as the pre-trained model that I have used (Imagenet v3) is for Tensorflow 2.0 version and won't work if Tensorlfow 1.x version is installed. I used this model as it was giving a much higher accuracy as compared to the 1.x models and the keras.application models.
+
+The final accuracy values after training it in Colab for 15 epochs are:
+
+`loss: 0.3825 - acc: 0.8771 - val_loss: 0.6718 - val_acc: 0.7955`
+
+Although it yields a good accuracy value in both training and validation set the model still is not performing well enough when tasked with predicting new images. This is mainly because of the low quality of the dataset.
