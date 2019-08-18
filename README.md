@@ -1,4 +1,4 @@
-# Classifying images of teeth with and without cavity
+# Classifying images of teeth having cavity
 
 This is a self-project on making a CNN to classify whether a teeth has cavities or not using real time (phone) camera captured images instead of X-ray images.
 I created my own dataset by downloading images from Google under different Search Keywords. I used the Google Image Downloader extension in Firefox browser. 
